@@ -2,14 +2,13 @@ import Image from "next/image";
 import Reveal from "./Reveal";
 
 const items = [
+  {
+    src: "/assets/hero-sunset-yacht.jpg",
+    alt: "เรือยอชต์ยามเย็น",
+    span: "col-span-2 row-span-2",
+  },
   { src: "/assets/orange-sunset.jpg", alt: "พระอาทิตย์ตกสีส้ม", span: "row-span-2" },
-  { src: "/assets/hero-sunset-yacht.jpg", alt: "เรือยอชต์ยามเย็น", span: "sm:col-span-2" },
-  { src: "/assets/sup-relax.jpg", alt: "SUP board" },
-  { src: "/assets/kayak-couple.jpg", alt: "พายคายัค" },
-  { src: "/assets/catamaran-guests.jpg", alt: "เรือคาตามารัน" },
-  { src: "/assets/chicken-island.jpg", alt: "เกาะไก่ กระบี่", span: "sm:col-span-2" },
-  { src: "/assets/couple-deck.jpg", alt: "คู่รักบนเรือ" },
-  { src: "/assets/evening-sky.jpg", alt: "ท้องฟ้ายามเย็น" },
+  { src: "/assets/evening-sky.jpg", alt: "ท้องฟ้ายามเย็น", span: "row-span-2" },
 ];
 
 export default function Gallery() {
