@@ -7,8 +7,19 @@ const items = [
     alt: "เรือยอชต์ยามเย็น",
     span: "col-span-2 row-span-2",
   },
+  {
+    src: "/assets/catamaran-aerial-pool.jpg",
+    alt: "มุมสูงเรือคาตามารันพร้อมสระน้ำท้ายเรือ",
+    span: "row-span-2",
+  },
   { src: "/assets/orange-sunset.jpg", alt: "พระอาทิตย์ตกสีส้ม", span: "row-span-2" },
-  { src: "/assets/evening-sky.jpg", alt: "ท้องฟ้ายามเย็น", span: "row-span-2" },
+  {
+    src: "/assets/brand-flag.jpg",
+    alt: "ธง Yacht Master บนหัวเรือ",
+    span: "col-span-2",
+  },
+  { src: "/assets/sunset-cheers.jpg", alt: "ชนแก้วฉลองยามพระอาทิตย์ตก" },
+  { src: "/assets/evening-sky.jpg", alt: "ท้องฟ้ายามเย็น" },
 ];
 
 export default function Gallery() {
