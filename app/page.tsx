@@ -12,14 +12,14 @@ import Footer from "@/components/Footer";
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://yachtmaster.co.th/#business",
+  "@id": "https://yachtmaster.club/#business",
   name: "Yacht Master",
   alternateName: "Yacht Master — Luxury Yacht Experiences",
   description:
     "บริการเช่าเรือยอชต์คาตามารันส่วนตัวสุดหรูในกระบี่ ทะเลอันดามัน ประเทศไทย — Private luxury catamaran charter in Krabi, Thailand.",
-  url: "https://yachtmaster.co.th",
-  image: "https://yachtmaster.co.th/assets/hero-sunset-yacht.jpg",
-  email: "booking@yachtmaster.co.th",
+  url: "https://yachtmaster.club",
+  image: "https://yachtmaster.club/assets/hero-sunset-yacht.jpg",
+  email: "booking@yachtmaster.club",
   priceRange: "฿฿฿",
   address: {
     "@type": "PostalAddress",

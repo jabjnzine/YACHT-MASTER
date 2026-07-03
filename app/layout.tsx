@@ -32,7 +32,7 @@ const notoSansThai = Noto_Sans_Thai({
   weight: ["300", "400", "500", "600"],
 });
 
-const siteUrl = "https://yachtmaster.co.th";
+const siteUrl = "https://yachtmaster.club";
 const siteTitle = "Yacht Master — เช่าเรือยอชต์หรู กระบี่ | Luxury Yacht Charter Krabi, Thailand";
 const siteDescription =
   "Yacht Master บริการเช่าเรือยอชต์คาตามารันส่วนตัวสุดหรูในกระบี่ ทะเลอันดามัน — ล่องเรือชมพระอาทิตย์ตก ดำน้ำดูปะการัง คายัคใส เกาะไก่ ทะเลแหวก พร้อมบริการมาตรฐานสากล. Private luxury catamaran charter in Krabi, Thailand.";

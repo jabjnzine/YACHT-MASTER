@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://yachtmaster.co.th/sitemap.xml",
+    sitemap: "https://yachtmaster.club/sitemap.xml",
   };
 }
