@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const links = [
   { href: "#about", label: "About" },
   { href: "#experiences", label: "Experiences" },
@@ -12,9 +14,13 @@ export default function Footer() {
       <div className="mx-auto w-[90%] max-w-[1200px]">
         <div className="flex flex-wrap items-center justify-between gap-7 border-b border-silver/[.18] pb-9">
           <div className="flex items-center gap-3 text-white">
-            <span className="flex h-10 w-10 items-center justify-center rounded-full border-[1.5px] border-white font-serif-brand text-[19px]">
-              Y
-            </span>
+            <Image
+              src="/assets/logo-mark-white.png"
+              alt="ตราสัญลักษณ์ Yacht Master"
+              width={580}
+              height={600}
+              className="h-11 w-auto"
+            />
             <span className="font-serif-brand text-lg tracking-[4px]">
               YACHT MASTER
             </span>

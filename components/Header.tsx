@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const links = [
@@ -31,9 +32,14 @@ export default function Header() {
     >
       <div className="mx-auto flex w-[90%] max-w-[1200px] items-center justify-between">
         <a href="#" className="flex items-center gap-3 text-white">
-          <span className="flex h-11 w-11 items-center justify-center rounded-full border-[1.5px] border-white font-serif-brand text-[22px] font-semibold">
-            Y
-          </span>
+          <Image
+            src="/assets/logo-mark-white.png"
+            alt="ตราสัญลักษณ์ Yacht Master"
+            width={580}
+            height={600}
+            priority
+            className="h-12 w-auto"
+          />
           <span>
             <span className="block font-serif-brand text-xl font-medium tracking-[4px]">
               YACHT MASTER
