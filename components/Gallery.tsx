@@ -31,10 +31,14 @@ const items = [
   {
     src: "/assets/friends-party.jpg",
     alt: "กลุ่มเพื่อนฉลองบนดาดฟ้าเรือหน้าผาหินปูน",
-    span: "col-span-2",
+    span: "col-span-2 row-span-2",
   },
-  { src: "/assets/sunset-cheers.jpg", alt: "ชนแก้วฉลองยามพระอาทิตย์ตก" },
-  { src: "/assets/evening-sky.jpg", alt: "ท้องฟ้ายามเย็น" },
+  {
+    src: "/assets/sunset-cheers.jpg",
+    alt: "ชนแก้วฉลองยามพระอาทิตย์ตก",
+    span: "row-span-2",
+  },
+  { src: "/assets/evening-sky.jpg", alt: "ท้องฟ้ายามเย็น", span: "row-span-2" },
 ];
 
 export default function Gallery() {
