@@ -40,13 +40,8 @@ export default function Header() {
             priority
             className="h-12 w-auto"
           />
-          <span>
-            <span className="block font-serif-brand text-xl font-medium tracking-[4px]">
-              YACHT MASTER
-            </span>
-            <span className="block text-[8.5px] uppercase tracking-[3px] text-silver">
-              Luxury Yacht Experiences
-            </span>
+          <span className="font-serif-brand text-xl font-medium tracking-[4px]">
+            YACHT MASTER
           </span>
         </a>
 
