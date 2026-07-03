@@ -1,26 +1,55 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-navy: #0a1f36;
+  --color-graphite: #2b2b2b;
+  --color-silver: #b8bec4;
+  --color-pearl: #e6e8eb;
+  --color-sand: #f2efe9;
+
+  --font-serif-brand: var(--font-playfair), var(--font-noto-serif-thai), serif;
+  --font-sans-brand: var(--font-montserrat), var(--font-noto-sans-thai), sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans-brand);
+  color: var(--color-graphite);
+  background: #ffffff;
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+::selection {
+  background: var(--color-navy);
+  color: #ffffff;
+}
+
+/* scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(34px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+.reveal.on {
+  opacity: 1;
+  transform: none;
+}
+
+/* hero scroll hint line */
+@keyframes drop {
+  0% { transform: scaleY(0); transform-origin: top; }
+  50% { transform: scaleY(1); transform-origin: top; }
+  51% { transform-origin: bottom; }
+  100% { transform: scaleY(0); transform-origin: bottom; }
+}
+.scroll-line::after {
+  content: "";
+  width: 1px;
+  height: 44px;
+  background: linear-gradient(var(--color-pearl), transparent);
+  animation: drop 2s infinite;
 }
