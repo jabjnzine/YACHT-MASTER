@@ -1,6 +1,7 @@
 export default function Hero() {
   return (
     <section className="relative flex h-screen min-h-[640px] items-center justify-center overflow-hidden text-center">
+      {/* desktop / tablet: 16:9 */}
       <video
         src="/assets/hero-video.mp4"
         poster="/assets/hero-video-poster.jpg"
@@ -10,7 +11,19 @@ export default function Hero() {
         playsInline
         preload="metadata"
         aria-label="วิดีโอมุมสูงเรือยอชต์ Yacht Master กลางทะเลแหวก กระบี่"
-        className="absolute inset-0 h-full w-full object-cover"
+        className="absolute inset-0 hidden h-full w-full object-cover md:block"
+      />
+      {/* mobile: 9:16 */}
+      <video
+        src="/assets/hero-video-mobile.mp4"
+        poster="/assets/hero-video-mobile-poster.jpg"
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="metadata"
+        aria-label="วิดีโอมุมสูงเรือยอชต์ Yacht Master กลางทะเลแหวก กระบี่"
+        className="absolute inset-0 h-full w-full object-cover md:hidden"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-navy/55 via-navy/25 to-navy/75" />
 
