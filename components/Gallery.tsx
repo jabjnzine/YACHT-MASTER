@@ -64,8 +64,13 @@ export default function Gallery() {
                   src={item.src}
                   alt={item.alt}
                   fill
+                  quality={85}
                   className="object-cover transition-transform duration-700 group-hover:scale-[1.08]"
-                  sizes="(max-width: 1024px) 45vw, 300px"
+                  sizes={
+                    item.span?.includes("col-span-2")
+                      ? "(max-width: 1024px) 100vw, 620px"
+                      : "(max-width: 1024px) 50vw, 310px"
+                  }
                 />
               </a>
             ))}
