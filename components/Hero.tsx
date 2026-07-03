@@ -1,14 +1,16 @@
-import Image from "next/image";
-
 export default function Hero() {
   return (
     <section className="relative flex h-screen min-h-[640px] items-center justify-center overflow-hidden text-center">
-      <Image
-        src="/assets/hero-sunset-yacht.jpg"
-        alt="เรือยอชต์กลางทะเลอันดามันยามพระอาทิตย์ตก"
-        fill
-        priority
-        className="object-cover"
+      <video
+        src="/assets/hero-video.mp4"
+        poster="/assets/hero-video-poster.jpg"
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="metadata"
+        aria-label="วิดีโอมุมสูงเรือยอชต์ Yacht Master กลางทะเลแหวก กระบี่"
+        className="absolute inset-0 h-full w-full object-cover"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-navy/55 via-navy/25 to-navy/75" />
 
