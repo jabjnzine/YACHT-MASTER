@@ -18,9 +18,9 @@ const items = [
     span: "row-span-2",
   },
   {
-    src: "/assets/friends-party.jpg",
-    alt: "กลุ่มเพื่อนฉลองบนดาดฟ้าเรือหน้าผาหินปูน",
-    span: "col-span-2",
+    src: "/assets/yacht-master-flag.jpg",
+    alt: "ธง Yacht Master บนหัวเรือ",
+    span: "col-span-2 row-span-2",
   },
   {
     src: "/assets/fruit-dessert.jpg",
@@ -29,10 +29,12 @@ const items = [
   },
   { src: "/assets/orange-sunset.jpg", alt: "พระอาทิตย์ตกสีส้ม", span: "row-span-2" },
   {
-    src: "/assets/brand-flag.jpg",
-    alt: "ธง Yacht Master บนหัวเรือ",
+    src: "/assets/friends-party.jpg",
+    alt: "กลุ่มเพื่อนฉลองบนดาดฟ้าเรือหน้าผาหินปูน",
     span: "col-span-2",
   },
+  { src: "/assets/sunset-cheers.jpg", alt: "ชนแก้วฉลองยามพระอาทิตย์ตก" },
+  { src: "/assets/evening-sky.jpg", alt: "ท้องฟ้ายามเย็น" },
 ];
 
 export default function Gallery() {
