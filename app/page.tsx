@@ -19,7 +19,8 @@ const jsonLd = {
     "บริการเช่าเรือยอชต์คาตามารันส่วนตัวสุดหรูในกระบี่ ทะเลอันดามัน ประเทศไทย — Private luxury catamaran charter in Krabi, Thailand.",
   url: "https://yachtmaster.club",
   image: "https://yachtmaster.club/assets/hero-sunset-yacht.jpg",
-  email: "booking@yachtmaster.club",
+  email: "info@yachtmaster.club",
+  telephone: "+66811362680",
   priceRange: "฿฿฿",
   address: {
     "@type": "PostalAddress",

@@ -3,8 +3,8 @@
 import Reveal from "./Reveal";
 
 const contacts = [
-  { icon: "✆", label: "โทรศัพท์", value: "+66 (0) 8X-XXX-XXXX" },
-  { icon: "✉", label: "อีเมล", value: "booking@yachtmaster.club" },
+  { icon: "✆", label: "โทรศัพท์", value: "+66 81 136 2680" },
+  { icon: "✉", label: "อีเมล", value: "info@yachtmaster.club" },
   { icon: "◎", label: "ท่าเรือ", value: "อ่าวน้ำเมา, กระบี่ ประเทศไทย" },
   { icon: "◷", label: "เวลาให้บริการ", value: "ทุกวัน 08:00 – 20:00 น." },
 ];
